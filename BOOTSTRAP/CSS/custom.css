@@ -8,8 +8,10 @@
   
   .paralsec2 {
   background-image: url("/IMAGENES/trevor2.jpg");
-  }
+  background-size: cover;
+  background-attachment: fixed;
 
+  }
   
   /* Header Parallax Element Style*/ 
 .paral {
@@ -41,8 +43,11 @@
   padding: 2.5rem 0;
   text-align: center;
   color: white;
-  background-color: #607D8B;
   border-top: .05rem solid #e5e5e5;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("/IMAGENES/trevor2.jpg");
   }
   
   .wn-footer a {
@@ -50,7 +55,7 @@
   }
 
   .navbar {
-    background: url("/IMAGENES/fondo2.png")
+    background: transparent;
   }
   .navbar .navbar-brand {
     color: white;
@@ -59,13 +64,5 @@
     color: white;
   }
 
-  @media (pointer: coarse) and (hover: none), (-webkit-touch-callout: none) {
-    body {
-      -webkit-overflow-scrolling: auto !important;
-    }
-    
-    .parallax-container {
-      background-attachment: scroll;
-    }
-  }
+
   
