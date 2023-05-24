@@ -58,3 +58,14 @@
   .navbar .navbar-nav .nav-link {
     color: white;
   }
+
+  @media (pointer: coarse) and (hover: none), (-webkit-touch-callout: none) {
+    body {
+      -webkit-overflow-scrolling: auto !important;
+    }
+    
+    .parallax-container {
+      background-attachment: scroll;
+    }
+  }
+  
