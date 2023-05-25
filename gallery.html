@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/BOOTSTRAP/CSS/bootstrap.css">
+  <link rel="stylesheet" href="/BOOTSTRAP/CSS/custom.css">
+  <link rel="icon" type="image/png" href="IMAGENES/icono.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <script defer src="/BOOTSTRAP/JS/bootstrap.bundle.js"></script>
+  <title>GTA V</title>
+</head>
+<body class="fondo">
+    <!----------------------------- Barra NAVBAR ------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/IMAGENES/logogta.png" alt="Logo" width="50" height="50">
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="armas.html">Armas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Galeria</a>
+                        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="us.html">Conócenos</a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!---------------------------------------------------------------------------------------------->
+<div class="container centrar"> 
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/IMAGENES/foto1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Vinewood</h5>
+                <p class="card-text">Conoce nuestro distrito mas adinerado de todo Los Santos</p>
+                <button type="button" class="btn btn-primary position-relative"> Mas personas tambien lo visitaron 
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"> 15+
+                    <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/IMAGENES/foto2.jpeg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Downtown Los Santos</h5>
+                <p class="card-text">Descubre el barrio mas peligroso de Los Santos al Noreste del mapa
+                  del Sur.</p>
+                  <div class="alert alert-danger" role="alert">
+                   ¡Alerta! Este sitio es muy peligroso
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/IMAGENES/foto3.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Vespucci Beach</h5>
+                <p class="card-text">Aquí conocerás la asombrosa playa que nos trae esta magnífica ciudad</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                  Ver más
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Vespucci Beach</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                  <p>¡Bienvenido a Vespucci Beach! Disfruta de sus hermosas playas de arena blanca, aguas cristalinas y una amplia gama de actividades acuáticas. Relájate bajo el sol, practica surf o participa en emocionantes competencias de jet ski. Además, encontrarás una gran variedad de tiendas, restaurantes y bares para disfrutar al máximo tu tiempo en esta increíble playa. ¡No te lo pierdas!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/BOOTSTRAP/CSS/bootstrap.css">
+  <link rel="stylesheet" href="/BOOTSTRAP/CSS/custom.css">
+  <link rel="icon" type="image/png" href="IMAGENES/icono.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="/BOOTSTRAP/JS/bootstrap.bundle.js"></script>
+  <title>GTA V - Conocenos</title>
+</head>
+<body class="fondo">
+    <!----------------------------- Barra NAVBAR ------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/IMAGENES/logogta.png" alt="Logo" width="50" height="50">
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="armas.html">Armas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Galeria</a>
+                    </li>
+            <li class="nav-item">
+                <a class="nav-link" href="us.html">Conócenos</a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!------------------------------------------------------------------------------->
+    <div class="centrarformulario"> 
+    <form id="myForm">
+        <div class="mb-3">
+          <label for="nombre" class="form-label text-bg-danger rounded text-dark">Nombre</label>
+          <input type="text" class="form-control bg-dark-subtle" id="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="apellidos" class="form-label text-bg-danger rounded text-dark">Apellidos</label>
+            <input type="text" class="form-control bg-dark-subtle" id="apellidos" required>
+          </div>
+        <div class="mb-3">
+          <label for="email" class="form-label text-bg-danger rounded text-dark">Email</label>
+          <input type="email" class="form-control bg-dark-subtle" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label text-bg-danger rounded text-dark">Mensaje</label>
+          <textarea class="form-control bg-dark-subtle" id="mensaje" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger w-100">Enviar</button>
+      </form>
+    </div>
+</body>
+</html>
